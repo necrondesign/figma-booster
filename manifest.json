@@ -1,0 +1,17 @@
+{
+  "name": "Figma Booster",
+  "id": "1234567890",
+  "api": "1.0.0",
+  "main": "dist/src/code.js",
+  "ui": "ui.html",
+  "editorType": ["figma"],
+  "capabilities": [],
+  "networkAccess": {
+    "allowedDomains": [
+      "https://translate.googleapis.com",
+      "https://api.figma.com"
+    ],
+    "reasoning": "Google Translate for text translation; Figma REST API to post audit comments onto the canvas."
+  },
+  "enablePrivatePluginApi": true
+}

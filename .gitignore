@@ -1,0 +1,12 @@
+node_modules/
+.DS_Store
+
+.preview/
+.claude/launch.json
+
+# Local reference only — Master plugin docs (not part of the plugin source)
+pdf/
+
+# Не часть плагина: выгрузка токенов дизайн-системы и промты другого проекта
+tokens-*.json
+prompt.md

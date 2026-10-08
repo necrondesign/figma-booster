@@ -1,0 +1,23 @@
+{
+  "name": "figma-booster",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "build:dict": "node tools/build-dict.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@figma/plugin-typings": "^1.124.0",
+    "typescript": "^6.0.2",
+    "dictionary-en": "^4.0.0",
+    "dictionary-ru": "^3.0.0",
+    "esbuild": "^0.24.0",
+    "nspell": "^2.1.5"
+  }
+}
